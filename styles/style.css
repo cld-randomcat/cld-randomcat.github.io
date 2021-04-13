@@ -1,0 +1,26 @@
+div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  outline-width: 5px;
+  outline-color: black;
+  outline-style: solid;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+
+}	
+
+body {
+	background-color: #ced9db;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+	outline-width: 5px;
+  outline-color: black;
+  outline-style: solid;
+}

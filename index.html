@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles/style.css">
+	<script type="module" src="scripts/app.js"></script>
+	<title>Random Cat Pics</title>
+</head>
+<body>
+	
+	<div class="v">
+		<img src="http://placekitten.com/500/500" id="cat-pic">
+		<form>
+			<p> <b>Enter image resolution:</b> </p>
+		<label class="input">Width: </label>
+		<input type="number" id="img-width">
+		<label class="input">Height: </label>
+		<input type="number" id="img-height">
+		<input type="button" value="submit" onclick="changePicture((document.getElementById('img-width')).value,(document.getElementById('img-height')).value)">
+
+		<p> <b>OR:</b> </p>
+		<input type="button" value='Randomize' onclick="randomize()">
+		</form>
+	</div>
+</body>
+</html>
